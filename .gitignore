@@ -1,0 +1,7 @@
+.local/
+.superpowers/
+node_modules/
+npm-debug.log*
+*.tgz
+*.tmp
+*.log
