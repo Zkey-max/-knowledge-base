@@ -1,0 +1,21 @@
+{
+  "name": "wecom-requirement-capture",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "db:init": "node src/cli.js db init",
+    "wecom:install": "node src/cli.js wecom install",
+    "wecom:init": "node src/cli.js wecom init",
+    "wecom:test": "node src/cli.js wecom test",
+    "admin": "node src/cli.js admin",
+    "poll": "node src/cli.js poll --once",
+    "watch": "node src/cli.js poll --watch",
+    "auto": "node src/cli.js auto --watch",
+    "auto:once": "node src/cli.js auto --once",
+    "tasks": "node src/cli.js tasks list"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
